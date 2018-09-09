@@ -21,6 +21,9 @@
     <ClInclude Include="targetver.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
+    <ClInclude Include="Persona.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -33,6 +36,12 @@
       <Filter>Archivos de origen</Filter>
     </ClCompile>
     <ClCompile Include="2_Contenedores_Secuenciales.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="Persona.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="4_Practica_Persona.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
   </ItemGroup>
