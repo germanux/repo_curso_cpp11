@@ -26,7 +26,16 @@
     <ClCompile Include="stdafx.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
-    <ClCompile Include="2_App_Multihilo.cpp">
+    <ClCompile Include="1_Main_Multihilo.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="2_MultiThreading.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="3_Practica_Multithreading.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="4_Mas_Multithreading.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
   </ItemGroup>
