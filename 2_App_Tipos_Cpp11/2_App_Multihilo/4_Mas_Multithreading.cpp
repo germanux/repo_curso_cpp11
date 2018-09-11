@@ -1,6 +1,8 @@
 #include "stdafx.h"
 #include <thread>
 #include <iostream>
+#include <thread>
+#include <vector>
 
 using namespace std;
 
@@ -18,4 +20,16 @@ void ej_thread_param() {
 	t1.join();
 	t2.join();
 	t3.join();
+}
+void ej_thread_vector() {
+	vector<thread> th;
+	int nr_threads = 10;
+
+	for (int i = 0; i < nr_threads; ++i) {
+		th.push_back(std::thread([](int i)->void {cout << "Hilo lanzado " << i << endl; }, i));
+	}
+
+	for (auto &t : th) {
+		t.join();
+	}
 }
