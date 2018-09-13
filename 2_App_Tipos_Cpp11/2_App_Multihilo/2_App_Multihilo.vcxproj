@@ -156,6 +156,9 @@
     <ClCompile Include="3_Practica_Multithreading.cpp" />
     <ClCompile Include="4_Mas_Multithreading.cpp" />
     <ClCompile Include="5_Sincronizacion.cpp" />
+    <ClCompile Include="6_Sincro_rec_mut.cpp" />
+    <ClCompile Include="7_Sincro_lock_for.cpp" />
+    <ClCompile Include="8_Future_Promise.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
